@@ -46,9 +46,9 @@ div .lista1 {
     background-position: center;
     background-repeat: no-repeat;
 }
-@media (max-width: 300pxpx) {
+@media (max-width: 400pxpx) {
     .inicio h1 {
-        font-size: 30px;
+        font-size: 20px;
         margin-right: 0;
     }
 
