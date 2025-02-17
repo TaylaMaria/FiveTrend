@@ -217,39 +217,16 @@ a:-webkit-any-link {
     }
 
     header ul {
-        text-align: center;
-    }
-
-    header li {
-        font-size: 10px;
-        margin-left: 0;
+        flex-direction: column; 
+      }
+      header li {
+        font-size: 20px; 
+        margin: 5px 0;
+      }
+      header .inicio-container img {
+        width: 150px;
         margin-top: 10px;
-    }
-
-    header li a, .dropbtn {
-        padding: 10px 12px;
-    }
-
-    header li a:hover, .dropdown:hover .dropbtn {
-        background-color: rgb(219, 217, 217);
-    }
-
-    header .dropdown-content {
-        position: static;
-        box-shadow: none;
-        width: 100%;
-    }
-
-    header .dropdown-content a {
-        text-align: center;
-    }
-
-    header .inicio-container img {
-        width: 100px;
-        align-items: center;
-        justify-content: center;
-    }
-
+      }
     footer {
         display: block;
         text-align: center;
