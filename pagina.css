@@ -304,6 +304,7 @@ a:-webkit-any-link {
         width: 80%;
         height: auto;
         margin: 10px;
+        flex-direction: column;
         border-radius: 10px;
         background-size: cover;
         background-position: center;
@@ -326,6 +327,7 @@ a:-webkit-any-link {
     img {
         width: 100%;
         max-width: 300px;
+        flex-direction: column;
       }
 
     main .imagem-container button {
