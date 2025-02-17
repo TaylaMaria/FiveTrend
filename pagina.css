@@ -204,7 +204,7 @@ main a {
 a:-webkit-any-link {
     cursor: pointer;
 }
-@media (max-width: 300px) {
+@media (max-width: 480px) {
     .container {
         max-width: 100%;
         margin: auto;
@@ -277,7 +277,7 @@ a:-webkit-any-link {
     }
 
     main h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     main h1 {
@@ -308,7 +308,7 @@ a:-webkit-any-link {
     }
 
     main .welcome h1 {
-        font-size: 50px;
+        font-size: 30px;
         position: static;
         transform: none;
         text-align: center;
@@ -346,14 +346,10 @@ a:-webkit-any-link {
         display: flex;
         justify-content: center;
     }
-
-    main .imagem-container img {
+    img {
         width: 100%;
-        height: auto;
-        box-shadow: 2px 2px 5px #000000c0;
-        border-radius: 10px;
-        object-fit: cover;
-    }
+        max-width: 300px;
+      }
 
     main .imagem-container button {
         background-color: white;
