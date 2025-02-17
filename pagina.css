@@ -204,7 +204,7 @@ main a {
 a:-webkit-any-link {
     cursor: pointer;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .container {
         max-width: 100%;
         margin: auto;
@@ -254,7 +254,7 @@ a:-webkit-any-link {
     }
 
     main h3 {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     main h1 {
